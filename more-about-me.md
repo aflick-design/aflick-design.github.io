@@ -2,6 +2,7 @@
 layout: page
 title: More About Me
 permalink: /more-about-me/
+main_nav: true
 ---
 
 # More About Me
