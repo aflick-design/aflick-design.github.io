@@ -36,4 +36,5 @@ Outside of work and class, I enjoy traveling, finding good coffee, spending time
 
 ## Interests
 
-Traveling, coffee, hiking, long-distance running, music festivals, Italian cuisine, and volunteer work. :contentReference[oaicite:4]{index=4}
+Traveling, coffee, hiking, long-distance running, music festivals, Italian cuisine, and volunteer work.
+
