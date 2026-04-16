@@ -4,5 +4,5 @@ email: aflick@nd.edu
 description: Welcome to my website!
 baseurl: ""
 url: "https://aflick-design.github.io"
-cover: "/assets/your-cover-image.jpg"
-logo: "/assets/your-logo.png"
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
