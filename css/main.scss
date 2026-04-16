@@ -11,3 +11,21 @@
   "neat/neat",
   "layout"
 ;
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 260px;        /* keeps all images same size */
+  object-fit: cover;    /* crops nicely instead of stretching */
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.03);
+}
