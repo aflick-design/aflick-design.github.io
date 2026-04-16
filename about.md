@@ -2,17 +2,37 @@
 layout: page
 title: About
 permalink: /about/
-main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+# About Me
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+Hi, I’m Ashley.
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+I’m a Finance and Sociology student at the University of Notre Dame with experience across investment banking, private equity, and software-focused investing. My background has given me exposure to both deal execution and investment research, and I’m especially interested in middle-market businesses and the ways companies create value through strategy, operations, and growth. :contentReference[oaicite:0]{index=0}
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Most recently, I’ve worked with Ranger Software Group, where I support market mapping and company research across industrial and logistics software verticals. Before that, I was an Investment Banking Summer Analyst at Lincoln International, where I contributed to live deal execution, due diligence, buyer research, and business development efforts. I also previously worked at Capitala Group as a Private Equity Summer Analyst, evaluating investment opportunities, building financial models, and supporting diligence processes. :contentReference[oaicite:1]{index=1}
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+At Notre Dame, I’ve enjoyed being involved in organizations that combine leadership, service, and finance. I serve as a Dean’s Ambassador for the Mendoza College of Business, work as a Financial Analyst in the Loan Division of the Jubilee Initiative for Financial Inclusion, and help lead operations for Notre Dame Dance Marathon in support of Riley Children’s Hospital. Through these experiences, I’ve learned how much I value both analytical work and community impact. :contentReference[oaicite:2]{index=2}
+
+Outside of work and class, I enjoy traveling, finding good coffee, spending time outdoors, and staying active through long-distance running. :contentReference[oaicite:3]{index=3}
+
+## Experience Highlights
+
+- **Ranger Software Group** — Investment Intern  
+  Supporting sourcing and investment research across industrial and logistics software markets.
+
+- **Lincoln International** — Investment Banking Summer Analyst  
+  Worked on live deal materials, diligence support, and targeted buyer research.
+
+- **Capitala Group** — Private Equity Summer Analyst  
+  Evaluated potential investments, built financial models, and supported transaction diligence.
+
+## On Campus
+
+- **Dean’s Ambassador Program**  
+- **Jubilee Initiative for Financial Inclusion**  
+- **Notre Dame Dance Marathon**
+
+## Interests
+
+Traveling, coffee, hiking, long-distance running, music festivals, Italian cuisine, and volunteer work. :contentReference[oaicite:4]{index=4}
