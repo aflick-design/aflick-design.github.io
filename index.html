@@ -1,5 +1,19 @@
-</div>
+---
+layout: default
+---
 
+<div class="home">
+
+  <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+    <div class="scrim {% if site.cover %}has-cover{% endif %}">
+      <header class="site-header">
+        <h1 class="title">Ashley Flick</h1>
+        <p class="subtitle">Finance & Sociology student at the University of Notre Dame</p>
+      </header>
+    </div>
+  </div>
+
+  <div class="wrapper">
     <section class="page-section" style="margin-top: 40px;">
 <div style="text-align: center; margin-top: 40px;">
   <img src="{{ '/assets/my-headshot.jpg' | prepend: site.baseurl }}" 
