@@ -1,79 +1,72 @@
 ---
 layout: default
-pagination: 
-  enabled: true
 ---
+
 <div class="home">
 
-<div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
-  <div class="scrim {% if site.cover %}has-cover{% endif %}">
-    <header class="site-header">
-      <h1 class="title">{{ site.title }}</h1>
-      {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
-    </header>
+  <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
+    <div class="scrim {% if site.cover %}has-cover{% endif %}">
+      <header class="site-header">
+        <h1 class="title">Ashley Flick</h1>
+        <p class="subtitle">Finance & Sociology student at the University of Notre Dame</p>
+      </header>
+    </div>
   </div>
-</div>
 
-<div class="wrapper">
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  <li>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+  <div class="wrapper">
+
+    <section class="page-section" style="margin-top: 40px;">
+      <h2>Hi, I’m Ashley.</h2>
+      <p>
+        I’m a student at the University of Notre Dame studying Finance and Sociology, with experience across investment banking, private equity, and software-focused investing.
+      </p>
+      <p>
+        Most recently, I’ve worked with Ranger Software Group on market mapping and investment research across industrial and logistics software. Previously, I was a Summer Analyst at Lincoln International and Capitala Group.
+      </p>
+      <p>
+        I’m especially interested in middle-market businesses and how companies create value through strategy, operations, and growth.
+      </p>
     </section>
-    <section class="post-meta">
-      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      <div class="post-categories">
-      {% if post.categories.size > 0 %}in {% for cat in post.categories %}
-        {% if site.jekyll-archives %}
-        <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-        {% else %}
-        <a href="{{ site.baseurl }}/posts/#{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-        {% endif %}
-      {% endfor %}{% endif %}
-      </div>
+
+    <hr>
+
+    <section class="page-section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Ranger Software Group</strong> — Investment Intern</li>
+        <li><strong>Lincoln International</strong> — Investment Banking Summer Analyst</li>
+        <li><strong>Capitala Group</strong> — Private Equity Summer Analyst</li>
+      </ul>
     </section>
-  </li>
-  {% if forloop.last == false %}
-  <hr>
-  {% endif %}
-  {% endfor %}
-</ul>
 
-<nav class="pagination" role="navigation">
-	<p>
-    {% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-			<a class="newer-posts" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-			{% else %}
-			<a class="newer-posts" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-square fa-stack-2x"></i>
-					<i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-				</span>
-			</a>
-			{% endif %}
-		{% else %}
-		<span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-    </span>
-		{% endif %}
-		<span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-    </span>
-		{% endif %}
-	</p>
-</nav>
+    <hr>
 
-</div>
+    <section class="page-section">
+      <h2>Leadership & Involvement</h2>
+      <ul>
+        <li>Dean’s Ambassador, Mendoza College of Business</li>
+        <li>Jubilee Initiative for Financial Inclusion</li>
+        <li>Notre Dame Dance Marathon</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section class="page-section">
+      <h2>Interests</h2>
+      <p>
+        Traveling, coffee, long-distance running, hiking, music festivals, Italian cuisine, and volunteer work.
+      </p>
+    </section>
+
+    <hr>
+
+    <section class="page-section">
+      <p>
+        <a href="/about/">Learn more about me</a> ·
+        <a href="mailto:aflick@nd.edu">Contact</a>
+      </p>
+    </section>
+
+  </div>
 </div>
