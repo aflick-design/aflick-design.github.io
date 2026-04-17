@@ -6,11 +6,7 @@ main_nav: true
 ---
 
 <p>
-  Concerts are one of my favorite ways to make memories with friends and experience something fully in the moment. I love the energy of live music and the atmosphere of being in a crowd that knows every word.
-</p>
-
-<p>
-  For me, concerts are not just about the music — they are also about the people, the anticipation leading up to the show, and the feeling of being part of something bigger for a few hours.
+Some of my favorite concert memories from the past few years. Mostly country, and a few of the best shows I’ve been to. They’re a fun way to spend time with friends and see music live — next on my list are Cody Johnson and Coldplay!
 </p>
 
 <h2>Favorite Concert Memories</h2>
