@@ -6,7 +6,7 @@ main_nav: true
 ---
 
 <p>
-  The people I’ve met have shaped my experience more than anything else — from Notre Dame to traveling together. Some of my favorite memories have come from the time spent with friends, both in everyday moments and bigger experiences.
+  The people I’ve met have shaped my experience more than anything else. Some of my favorite memories have come from the time spent with friends, both in everyday moments and bigger experiences.
 </p>
 
 <h2>Friends & Life at Notre Dame</h2>
@@ -19,7 +19,7 @@ main_nav: true
 
   <div class="image-card">
     <img src="{{ '/assets/andrew.jpeg' | prepend: site.baseurl }}">
-    <p>My friend Andrew from Notre Dame</p>
+    <p>My friend Andrew</p>
   </div>
 
   <div class="image-card">
@@ -29,7 +29,7 @@ main_nav: true
 
   <div class="image-card">
     <img src="{{ '/assets/dome.jpeg' | prepend: site.baseurl }}">
-    <p>My friends Andrew, Brooke, and I in front of the Dome</p>
+    <p>Dome pic</p>
   </div>
 
   <div class="image-card">
