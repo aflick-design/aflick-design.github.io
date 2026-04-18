@@ -1,12 +1,13 @@
 <header class="navigation" role="banner">
   <div class="navigation-wrapper">
-    <a href="{{ site.baseurl }}/" class="logo">
-      {% if site.logo %}
-      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-      {% else %}
-      <span>{{ site.title }}</span>
-      {% endif %}
-    </a>
+    <a href="{{ site.baseurl }}/" class="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+  {% if site.logo %}
+  <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;">
+  <span style="font-weight: 600; color: inherit;">Ashley Flick</span>
+  {% else %}
+  <span>{{ site.title }}</span>
+  {% endif %}
+</a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
       <i class="fa fa-bars"></i>
     </a>
