@@ -2,7 +2,9 @@
   <div class="navigation-wrapper">
     <a href="{{ site.baseurl }}/" class="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
   {% if site.logo %}
-  <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}" style="height: 40px; width: 40px; border-radius: 50%; object-fit: cover;">
+  <img src="{{ site.logo | prepend: site.baseurl }}" 
+     alt="{{ site.title }}" 
+     style="height: 55px; width: 55px; border-radius: 50%; object-fit: cover;">
   <span style="font-weight: 600; color: inherit;">Ashley Flick</span>
   {% else %}
   <span>{{ site.title }}</span>
